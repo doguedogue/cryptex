@@ -21,7 +21,7 @@ function procesaEntrada(callback) {
         return;
     }
 
-    var patt = new RegExp(/^[a-z\s]+$/g);
+    var patt = new RegExp(/^[a-z!\s]+$/g);
     if (patt.test(texto)) {
         tasalida.value = callback(texto);
         muestraResultado();
