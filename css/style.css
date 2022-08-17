@@ -1,10 +1,12 @@
 body {
     max-block-size: 420px;
     background-color: #4c8fa7;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .btn {
@@ -41,6 +43,12 @@ textarea {
 
 .warningtext {
     font-size: 8pt;
+}
+
+.copyright {
+    background-color: white;
+    font-size: 8pt;
+    text-align: center;
 }
 
 #divsaludo {
@@ -82,7 +90,7 @@ textarea {
         height: 100px;
     }
 
-    .divsaludo {
+    #divsaludo {
         height: auto;
     }
 

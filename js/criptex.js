@@ -8,11 +8,12 @@ const tasalida = document.getElementById("tasalida");
 
 btnencriptar.addEventListener('click', function handleClick() {
     let texto = taentrada.value.trim();
-    var patt = new RegExp(/^[a-z\s]+$/g);
     if (texto.length == 0) {
+        taentrada.value = texto;
         return;
     }
 
+    var patt = new RegExp(/^[a-z\s]+$/g);
     if (patt.test(texto)) {
         tasalida.value = "encriptado:" + texto;
         muestraResultado();
@@ -23,6 +24,7 @@ btnencriptar.addEventListener('click', function handleClick() {
 btndesencriptar.addEventListener('click', function handleClick() {
     let texto = taentrada.value.trim();
     if (texto.length == 0) {
+        taentrada.value = texto;
         return;
     }
 
