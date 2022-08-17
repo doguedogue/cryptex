@@ -8,7 +8,20 @@
 <br>
 
 ![Video](./img/video.gif)
+
+<table>
+<tr>
+<td>
+
 ![logo](./img/logo.svg)
+
+</td>
+<td>
+
 ![](./img/guy.svg)
+
+</td>
+</tr>
+</table>
 
 #challengeonecodificador3
