@@ -1,0 +1,104 @@
+body {
+    max-block-size: 420px;
+    background-color: #4c8fa7;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn {
+    width: 120px;
+    margin: 5px;
+}
+
+.divbuttons {
+    margin: 20px 5px;
+}
+
+.divlogo {
+    margin-bottom: 20px;
+}
+
+.crypteximg {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 350px;
+}
+
+textarea {
+    font-size: 28pt !important;
+    width: 400px;
+    height: 500px;
+    resize: none;
+    background-color: #4c8fa7 !important;
+    border: none !important;
+    outline: none !important;
+    border-style: none !important;
+    border-color: Transparent !important;
+    overflow: auto !important;
+}
+
+.warningtext {
+    font-size: 8pt;
+}
+
+#divsaludo {
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 0;
+    /* display: none; */
+    display: block;
+
+}
+
+#divsalida {
+    display: none;
+    /* display: block; */
+}
+
+@media only screen and (max-width: 1200px) {
+    .crypteximg {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .crypteximg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .crypteximg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    textarea {
+        font-size: 12pt !important;
+        height: 100px;
+    }
+
+    .divsaludo {
+        height: auto;
+    }
+
+
+    .imgdiv {
+        display: none;
+    }
+
+    .crypteximg {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+    .crypteximg {
+        display: block;
+    }
+}

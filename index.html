@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cryptex Challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- With 💚 from @doguedogue-->
+</head>
+
+<body>
+    <main class="container">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="divlogo">
+                    <img src="/img/logo.svg" alt="">
+                    <img src="/img/cryptex.jpeg" alt="" class="crypteximg">
+                </div>
+            </div>
+            <div class="col">
+                <div class="diventrada">
+                    <div>
+                        <textarea class="form-control" id="idtextarea" placeholder="Ingrese el texto"></textarea>
+                    </div>
+                    <p class="warningtext">⚠ Solo letras minúsculas y sin acentos</p>
+                    <div class="divbuttons">
+                        <button type="button" class="btn btn-success" id="btnencriptar">Encriptar</button>
+                        <button type="button" class="btn btn-warning" id="btndesencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="divsaludo">
+                    <img src="/img/guy.svg" alt="" class="imgdiv">
+                    <h4>Ningún mensaje fue encontrado</h2>
+                        <p>Ingrese el texto que desee encriptar o desencriptar</p>
+                </div>
+                <div id="divsalida">
+                    <div>
+                        <textarea class="form-control" id="textareasalida" readonly></textarea>
+                    </div>
+                    <p class="warningtext">&nbsp; </p>
+                    <div class="divbuttons">
+                        <button type="button" class="btn btn-secondary">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/criptex.js"></script>
+</body>
+
+</html>
